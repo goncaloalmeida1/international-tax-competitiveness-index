@@ -37,7 +37,7 @@ colnames(table_1_results) <- c("Country",
                              "Cross-Border Tax Rules Rank")
 
 
-write.csv(table_1_results,paste(final_outputs,"table_1_results.csv",sep=""),row.names=F)
+#write.csv(table_1_results,paste(final_outputs,"table_1_results.csv",sep=""),row.names=F)
 
 ###Table 2 Changes####
 table_2_changes <- merge(final_2023,final_2024,by="country")
